@@ -47,5 +47,5 @@ jobs:
             #memory: 0.1   #Optional
             #registry-username: ${{ secrets.REGISTRY_USERNAME }}
             #registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-            name: express-simple2
+            name: express-simple
             location: 'west us2'
