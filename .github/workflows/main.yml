@@ -49,5 +49,5 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: express-simple
             location: 'west us2'
-            ports: 80 8080
+            ports: 80 8080 5432
               
