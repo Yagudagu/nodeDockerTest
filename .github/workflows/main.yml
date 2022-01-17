@@ -41,7 +41,7 @@ jobs:
           uses: 'azure/aci-deploy@v1'
           with:
             resource-group: jacmarTesting
-            dns-name-label: jacmarsimple2
+            dns-name-label: jacmarsimple
             image: jacmar.azurecr.io/nodejssampleapp:${{ github.sha }}
             #cpu: 1   #Optional
             #memory: 0.1   #Optional
