@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.writeHead(200, {"Content-type": "text/html"});
     res.end(`
     <html>
-    <body>It works, changing the words to test ci/cd</body>
+    <body>It works, changing the words to test ci/cd again</body>
     </html>`)
 });
 
