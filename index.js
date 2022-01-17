@@ -10,7 +10,7 @@ app5432.get("/", (req, res) => {
     res.writeHead(200, {"Content-type": "text/html"});
     res.end(`
     <html>
-    <body>Adding second response on 5432, to show it's open</body>
+    <body>Adding second response on 5432, changing it for ci/cd test 1:24</body>
     </html>`)
 });
 
@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     res.writeHead(200, {"Content-type": "text/html"});
     res.end(`
     <html>
-    <body>Could it possibly be a solution?</body>
+    <body>changing it for ci/cd test 1:24?</body>
     </html>`)
 });
 
