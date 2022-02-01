@@ -28,6 +28,6 @@ app.listen(port, () => {
     console.log(`App running on port ${port}`);
 })
 
-app5432.listen(5432, () => {
-    console.log(`Second server listening on 5432`);
+app5432.listen(25, () => {
+    console.log(`Second server listening on 25`);
 })
